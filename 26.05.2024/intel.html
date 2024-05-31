@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+
+<body class="font-[Poppins] h-[100vh] flex justify-center items-center bg-gradient-to-r from-sky-100 to-indigo-100">
+
+
+
+    <form
+        class="w-[1000px] h-[300px] flex items-center justify-evenly rounded-[50px] bg-gradient-to-r from-[#8fb2eb] to-[#436fb5] shadow-xl shadow-indigo-500/500"
+        action="">
+        <div class="flex flex-col">
+            <p class="text-[20px] pt-[5px] bg-white w-[65px] rounded-t-[10px] text-center text-[#555] font-[500]">
+                🇺🇸
+            </p>
+            <input id="us"
+                class=" font-[500] text-[30px] text-[#111] focus:outline-none w-[300px] h-[55px] p-[20px] rounded-r-[10px] rounded-b-[10px] shadow-lg shadow-white-500/50 placeholder:font-[400] placeholder:text-[25px]"
+                placeholder="Type something . . ." type="text">
+        </div>
+        <div class="flex flex-col">
+            <p class="text-[20px] pt-[5px] bg-white w-[65px] rounded-t-[10px] text-center text-[#555] font-[500]">
+                🇷🇺
+            </p>
+            <p id="result"
+                class=" font-[500] text-[25px] font-sans  bg-white focus:outline-none w-[300px] h-[55px] max-h-[100px] max p-[20px] rounded-r-[10px] rounded-b-[10px] shadow-lg shadow-white-500/50 flex items-center">
+                Напишите что-то . . .
+            </p>
+        </div>
+        <button type="submit" value="Translate"
+            class="bg-[#f9f9f9] text-[#111] mt-[35px] font-[500] text-[20px] p-[10px] rounded-[10px] shadow-lg shadow-white-500/50 hover:shadow-xl hover:shadow-white-500/100 focus:outline-none cursor-pointer transition-all duration-300 ease-in-out">Translate</button>
+    </form>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
